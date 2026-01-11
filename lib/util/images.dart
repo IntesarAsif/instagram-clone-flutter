@@ -1,0 +1,30 @@
+class Images {
+  static const String instagramText = 'assets/image/instagram_text.png';
+  static const String dp1 = 'assets/image/dp_1.png';
+  static const String dp2 = 'assets/image/dp_2.png';
+  static const String dp3 = 'assets/image/dp_3.png';
+  static const String dp4 = 'assets/image/dp_4.png';
+  static const String dp5 = 'assets/image/dp_5.png';
+  static const String post1 = 'assets/image/post_1.webp';
+  static const String post2 = 'assets/image/post_2.jpg';
+  static const String post3 = 'assets/image/post_3.jpg';
+  static const String post5 = 'assets/image/post_5.jpg';
+  static const String post6 = 'assets/image/post_6.jpeg';
+  static const String post7 = 'assets/image/post_7.jpg';
+  static const String post8 = 'assets/image/post_8.jpg';
+  static const String post9 = 'assets/image/post_9.jpeg';
+  static const String post10 = 'assets/image/post_10.webp';
+  static const String post11 = 'assets/image/post_11.webp';
+  static const String post12 = 'assets/image/post_12.webp';
+  static const String post13 = 'assets/image/post_13.jpg';
+  static const String home = 'assets/image/home.png';
+  static const String reels = 'assets/image/reels.png';
+  static const String navigation = 'assets/image/navigation.png';
+  static const String comments = 'assets/image/comments.png';
+  static const String repost = 'assets/image/repost.png';
+  static const String send = 'assets/image/send.png';
+  static const String threads = 'assets/image/threads.png';
+  static const String addPeople = 'assets/image/add_people.png';
+  static const String grid = 'assets/image/grid.png';
+  static const String tagged = 'assets/image/tagged.png';
+}
