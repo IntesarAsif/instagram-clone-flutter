@@ -7,14 +7,14 @@ import 'package:instagram_clone/features/home/widgets/post_card.dart';
 import 'package:instagram_clone/util/dimensions.dart';
 import 'package:instagram_clone/util/styles.dart';
 
-class PostWidgets extends StatefulWidget {
-  const PostWidgets({super.key});
+class PostWidget extends StatefulWidget {
+  const PostWidget({super.key});
 
   @override
-  State<PostWidgets> createState() => _PostWidgetsState();
+  State<PostWidget> createState() => _PostWidgetState();
 }
 
-class _PostWidgetsState extends State<PostWidgets> {
+class _PostWidgetState extends State<PostWidget> {
   @override
   Widget build(BuildContext context) {
     return GetBuilder<HomeController>(

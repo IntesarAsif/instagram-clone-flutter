@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:instagram_clone/common/widgets/custom_app_bar.dart';
-import 'package:instagram_clone/features/home/widgets/story_widgets.dart';
+import 'package:instagram_clone/features/home/widgets/story_section.dart';
 import 'package:instagram_clone/features/profile/controllers/profile_controller.dart';
 import 'package:instagram_clone/features/profile/widgets/profile_stats.dart';
 import 'package:instagram_clone/util/dimensions.dart';
@@ -91,7 +91,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     ),
                     SizedBox(height: Dimensions.paddingSizeSmall),
 
-                    StoryWidgets(
+                    StorySection(
                       containerHeight: 70,
                       containerWidth: 70,
                       imageWidth: 73,

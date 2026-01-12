@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:instagram_clone/features/home/controllers/home_controller.dart';
 import 'package:instagram_clone/util/dimensions.dart';
 
-class StoryWidgets extends StatefulWidget {
+class StorySection extends StatefulWidget {
 
   final double? containerHeight;
   final double? containerWidth;
@@ -12,7 +12,7 @@ class StoryWidgets extends StatefulWidget {
   final double? listHeight;
   final bool includeAddNew;
   final String addNewLabel;
-  const StoryWidgets({
+  const StorySection({
     super.key,
     this.containerHeight = 90,
     this.containerWidth = 90,
@@ -24,10 +24,10 @@ class StoryWidgets extends StatefulWidget {
   });
 
   @override
-  State<StoryWidgets> createState() => _StoryWidgetsState();
+  State<StorySection> createState() => _StorySectionState();
 }
 
-class _StoryWidgetsState extends State<StoryWidgets> {
+class _StorySectionState extends State<StorySection> {
   @override
   Widget build(BuildContext context) {
     return GetBuilder<HomeController>(
@@ -50,6 +50,7 @@ class _StoryWidgetsState extends State<StoryWidgets> {
                       child: const Center(child: Icon(Icons.add, color: Colors.white, size: 30)),
                     ),
                     SizedBox(height: Dimensions.paddingSizeExtraSmall),
+
                     Text(widget.addNewLabel, style: const TextStyle(color: Colors.white, fontSize: 12)),
                   ]),
                 );

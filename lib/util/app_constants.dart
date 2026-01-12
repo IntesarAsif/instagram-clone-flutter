@@ -1,6 +1,6 @@
 import 'package:instagram_clone/features/language/domain/models/language_model.dart';
 
-class AppConstants {
+class AppConstants {    ///flutter version 3.28.3
   static const String appName = 'Instagram Clone';
   static const String fontFamily = 'Roboto';
 
